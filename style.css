@@ -1,0 +1,40 @@
+.akj{
+background-color:rgb(54, 234, 9);
+border:null ;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left:8px;
+padding-right: 8px;
+border-radius: 15px;
+}
+
+.s{
+    background-color: brown;
+    color: blue;
+    
+}
+hr{
+    color: chocolate;
+}
+/*.e{
+    color: coral;
+    text-decoration-color: aqua;
+    size: 20px;
+    a
+//for comment
+}*/
+#mya{
+    color: aqua;
+    width: 4cm;
+    font-size: 30px;
+}
+#aw{
+   color: hotpink; 
+}
+.e{
+    background-color: brown;
+    color: blue;
+}
+#a{
+    color: chocolate;
+}

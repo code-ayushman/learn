@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html<! lang="en">
+   <head>
+       
+<title>a</title>
+<link href="style>le.css" rel="stylesheet">
+   </head>
+<body>
+      <div>
+            <p id="a"> learning page</p>
+           <!-- <p>
+                  hi
+                  to comment
+            </p>-->
+      </div>
+      <input type="text" class="s" id="b" placeholder=" first name">
+      <br><br>
+      <input type="text" class="s" id="c"placeholder=" last name">
+      <br><br> <hr>
+      
+          <button  type="button" id="d " class="akj" 
+          onclick="cartQuantity = cartQuantity+1;document.querySelector('#cart-summery').innerText =`your cart has ${cartQuantity} items`;
+          "  >
+       add to bag
+    </button>
+    <button type="button" id="e " class="aj"
+    onclick="cartQuantity = cartQuantity-1;document.querySelector('#cart-summery').innerText =`your cart has ${cartQuantity} items`;
+    " 
+    
+    > ❤️add to wish list</button>
+    
+    <button type="button" id="my "class="akj"
+    onclick="cartQuantity = cartQuantity+2;document.querySelector('#cart-summery').innerText =`your cart has ${cartQuantity} items`;
+    "
+       
+    >add 1+1</button>
+    <a href="https://scratch.mit.edu/projects/editor/?tutorial=getStarted" class="e">go to is a link</a>
+    <hr>
+    <h1 id="cart-summery"></h1>
+
+      <script src="./main.js"></script>
+</body>
+</html>
