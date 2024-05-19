@@ -62,7 +62,7 @@
    <!-- In this chapter we will go through the <blockquote>,<q>, <abbr>, <address>, <cite>, and <bdo> HTML elements. -->
 
 
-       <blockquote cite="http://www.worldwildlife.org/who/index.html"  > 
+      <blockquote   cite="http://www.worldwildlife.org/who/index.html"  > 
          For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.
          <!-- the cite Attributes is used to say the brouser that from where we copy this text 
          Tip: It's a good habit to always add the source of a quotation, if any. The cite attribute does not render as anything special in any of the major browsers, but it can be used by search engines to get more information about the quotation.-->
@@ -96,7 +96,93 @@
 
 The HTML <bdo> tag is used to override the current text direction:
    it is basicly rever the text -->
-         </bdo> 
+   </bdo>
+</div>
+<div class="HEX Color Values">
+   <!-- A hexadecimal color is specified with: #RRGGBB, where the RR (red), GG (green) and BB (blue) hexadecimal integers specify the components of the color.HEX Color Values  In HTML, a color can be specified using a hexadecimal value in the form:  #rrggbb 
+   example = #ff6347 for red ,#0000ff for blue,#3cb371 for green,etc-->
+</div>
+<div class="hsl Color Values">
+
+   <h1 style="background-color:hsl(0, 10%, 10%);">hsl(0, 100%, 50%)</h1>
+   <h1 style="background-color:hsl(0, 20%,20%);">hsl(240, 100%, 50%)</h1>
+   <h1 style="background-color:hsl(0, 30%, 30%);">hsl(147, 50%, 47%)</h1>
+   <h1 style="background-color:hsl(0, 40%, 40%);">hsl(300, 76%, 72%)</h1>
+   <h1 style="background-color:hsl(0 ,50%, 50%);">hsl(39, 100%, 50%)</h1>
+   <h1 style="background-color:hsl(0, 60%,60%);">hsl(248, 53%, 58%)</h1>
+   <h1 style="background-color:hsl(0, 70%,70%);">hsl(0, 100%, 50%)</h1>
+   <h1 style="background-color:hsl(0, 80%,80%);">hsl(240, 100%, 50%)</h1>
+   <h1 style="background-color:hsl(0, 90%,90%);">hsl(147, 50%, 47%)</h1>
+   <h1 style="background-color:hsl(0, 100%,100%);">hsl(300, 76%, 72%)</h1>
+   <!-- the first value shows color,second value shows darkness,third value shows brightness -->
+</div>
+<div class="Using CSS
+">
+   <!-- Using CSS
+      CSS can be added to HTML documents in 3 ways:
+    Inline - by using the style attribute inside HTML elements
+    Internal - by using a <style> element in the <head> section
+    External - by using a <link> element to link to an external CSS file 
+   font-size:300% shows sentance size font-family: verdana; shows sentance theekness -->
+</div>
+<div class="Link">
+   <!-- The target attribute specifies where to open the linked document.
+The target attribute can have one of the following values:
+    _self - Default. Opens the document in the same window/tab as it was clicked
+    _blank - Opens the document in a new window or tab
+    _parent - Opens the document in the parent frame
+    _top - Opens the document in the full body of the window -->
+    <p><a href="https://www.w3.org/">W3C</a></p>
+    <p><a href="https://www.google.com/">Google</a></p>
+    <!-- Absolute URLs vs. Relative URLs
+
+    Both examples above are using an absolute URL (a full web address) in the href attribute.
+    
+    A local link (a link to a page within the same website) is specified with a relative URL (without the "https://www" part): -->
+    <h1>Example</h1>
+    <h2>Absolute URLs</h2>
+    <p><a href="https://www.w3.org/">W3C</a></p>
+    <p><a href="https://www.google.com/">Google</a></p>
+    
+    <h2>Relative URLs</h2>
+    <p><a href="html_images.asp">HTML Images</a></p>
+    <p><a href="/css/default.asp">CSS Tutorial</a></p> 
+    <p><a href="https://www.w3.org/">W3C</a></p>
+    <p><a href="https://www.google.com/">Google</a></p>
+
+
+    <h1>  HTML Links - Use an Image as a Link
+
+To use an image as a link, just put the <img> tag inside the <a> tag:
+Example</h1>
+<a href="default.asp">
+<img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
+</a> 
+
+<h1>Link to an Email Address
+Use mailto: inside the href attribute to create a link that opens the user's email program (to let them send a new email):
+Example</h1>
+<a href="mailto:someone@example.com">Send email</a> 
+<h1>Button as a Link
+
+To use an HTML button as a link, you have to add some JavaScript code.
+
+JavaScript allows you to specify what happens at certain events, such as a click of a button:
+Example</h1>
+<button onclick="document.location='default.asp'">HTML Tutorial</button>
+<h1>Link Titles
+
+The title attribute specifies extra information about an element. The information is most often shown as a tooltip text when the mouse moves over the element.
+Example</h1>
+<a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a> 
+
+<h1>Chapter Summary
+
+    Use the <a> element to define a link
+    Use the href attribute to define the link address
+    Use the target attribute to define where to open the linked document
+    Use the <img> element (inside <a>) to use an image as a link
+      Use the mailto: scheme inside the href attribute to create a link that opens the user's email program</h1>
 
 </div>
 </div>
